@@ -1,0 +1,25 @@
+{
+  "app_name": "B站视频监控系统",
+  "version": "0.1.0",
+  "description": "监控指定UP主的最新视频，自动下载并在超过保存期限后删除",
+  "author": "用户",
+  "settings": {
+    "debug": true,
+    "log_level": "info",
+    "max_threads": 4
+  },
+  "paths": {
+    "data_dir": "../data",
+    "output_dir": "../output",
+    "temp_dir": "/tmp"
+  },
+  "bilibili": {
+    "up_list": [
+      "12345678",
+      "87654321"
+    ],
+    "save_days": 7,
+    "download_dir": "../downloads",
+    "check_interval": 1
+  }
+}
