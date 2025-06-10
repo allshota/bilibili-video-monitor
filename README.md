@@ -47,7 +47,7 @@ my-project/
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/bilibili-monitor.git
+git clone https://github.com/allshota/bilibili-monitor.git
 cd bilibili-monitor
 
 # 安装依赖
